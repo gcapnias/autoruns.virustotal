@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "autoruns.virustotal": {
+      "commandName": "Project"
+    }
+  }
+}
