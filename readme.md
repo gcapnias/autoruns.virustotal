@@ -25,4 +25,8 @@ PS C:> autoruns.virustotal <VT API Key> filelist.txt
 Για την εκτέλεση της εφαρμογής απαιτείται η εγκατάσταση του **.NET Core v3.1 LTS SDK**. Οδηγίες για την εγκατάσταση του, μπορούν να βρεθούν στην σελίδα [Download .NET Core 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1).
 
 Μετά την εγκτάσταση, πρέπει να γίνει clone το repository, και στη συνέχεια να γίνει το build της εφαρμογής. Ενδεικτικά:
-
+```
+PS C:> git clone https://github.com/gcapnias/autoruns.virustotal.git
+PS C:> cd autoruns.virustotal
+PS C:> dotnet build
+```
