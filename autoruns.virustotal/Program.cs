@@ -47,7 +47,6 @@ namespace autoruns.virustotal
             string windoewsFolfer = $"{Environment.GetEnvironmentVariable("windir")}";
             Console.Out.WriteLine($"System's %WINDIR% folder: {windoewsFolfer}");
 
-
             if (Console.IsInputRedirected)
             {
                 Console.Out.WriteLine("Input from console redirection...");
